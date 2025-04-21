@@ -32,11 +32,5 @@ Open [http://localhost:8800](http://localhost:8800) to view it in your browser E
 File: db.json
 
 ## Modelagem do Banco de dados
-![image](https://github.com/user-attachments/assets/bb681fda-1260-4fa2-9692-1b98637d2979)
+![image](https://github.com/user-attachments/assets/7ec5d9c8-5ce1-479a-abbc-4ce6eabe0ad6)
 
-
-```
-
-
-Em Construção....
-Under development...
