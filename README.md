@@ -30,14 +30,11 @@ Open [http://localhost:8800](http://localhost:8800) to view it in your browser E
 
 ## json-server DB
 File: db.json
-```
-{
-    "perguntas": [
-      { "id": 1, "pergunta": "ola", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 2, "pergunta": "oi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 3, "pergunta": "hi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" }
-      ]
-}
+
+## Modelagem do Banco de dados
+![image](https://github.com/user-attachments/assets/bb681fda-1260-4fa2-9692-1b98637d2979)
+
+
 ```
 
 
