@@ -25,5 +25,6 @@ Open [http://localhost:8800](http://localhost:8800) to view it in your browser E
 File: db.json
 
 ## Modelagem do Banco de dados
-![image](https://github.com/user-attachments/assets/7ec5d9c8-5ce1-479a-abbc-4ce6eabe0ad6)
+![Untitled](https://github.com/user-attachments/assets/deefaae3-67c5-43f5-abc5-68393bfecb94)
+
 
