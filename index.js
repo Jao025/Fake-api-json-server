@@ -17,9 +17,9 @@ app.use(express.json())
 
 //Consultando todas as entradas no json-server
 //GET all
-app.get("/", async (req, res)=>{
+app.get("/cliente/:id", async (req, res)=>{
       
-        const consulta = await axios.get('http://localhost:3000/perguntas/') //Para consultar por id: http://localhost:3000/perguntas?id=1
+        const consulta = await axios.get('http://localhost:3000/cliente/${id}') //Para consultar por id: http://localhost:3000/perguntas?id=1
                 .then((res)=> {
                 console.log("Consulta realizada");
                 return res = res.data
