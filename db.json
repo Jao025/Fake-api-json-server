@@ -1,0 +1,300 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "telefone": 1198765432,
+      "endereço": "Rua A, 123 - São Paulo/SP"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "telefone": 2197654321,
+      "endereço": "Av. B, 456 - Rio de Janeiro/RJ"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Souza",
+      "email": "carlos.souza@email.com",
+      "telefone": 3196543210,
+      "endereço": "Rua C, 789 - Belo Horizonte/MG"
+    },
+    {
+      "id": 4,
+      "nome": "Ana Costa",
+      "email": "ana.costa@email.com",
+      "telefone": 4195432109,
+      "endereço": "Av. D, 101 - Curitiba/PR"
+    },
+    {
+      "id": 5,
+      "nome": "Pedro Santos",
+      "email": "pedro.santos@email.com",
+      "telefone": 5194321098,
+      "endereço": "Rua E, 112 - Porto Alegre/RS"
+    },
+    {
+      "id": 6,
+      "nome": "Juliana Lima",
+      "email": "juliana.lima@email.com",
+      "telefone": 6193210987,
+      "endereço": "Av. F, 131 - Brasília/DF"
+    },
+    {
+      "id": 7,
+      "nome": "Marcos Pereira",
+      "email": "marcos.pereira@email.com",
+      "telefone": 7192109876,
+      "endereço": "Rua G, 415 - Salvador/BA"
+    },
+    {
+      "id": 8,
+      "nome": "Patricia Alves",
+      "email": "patricia.alves@email.com",
+      "telefone": 8191098765,
+      "endereço": "Av. H, 161 - Recife/PE"
+    },
+    {
+      "id": 9,
+      "nome": "Lucas Gomes",
+      "email": "lucas.gomes@email.com",
+      "telefone": 9190987654,
+      "endereço": "Rua I, 718 - Fortaleza/CE"
+    },
+    {
+      "id": 10,
+      "nome": "Fernanda Rocha",
+      "email": "fernanda.rocha@email.com",
+      "telefone": 1199876543,
+      "endereço": "Av. J, 919 - São Paulo/SP"
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": 1,
+      "razao_social": "Fornecedor ABC Ltda",
+      "cnpj": "12345678000101",
+      "email": "contato@abc.com.br",
+      "telefone": 1123456789,
+      "endereco": "Av. K, 123 - São Paulo/SP"
+    },
+    {
+      "id": 2,
+      "razao_social": "Distribuidora XYZ S/A",
+      "cnpj": "23456789000102",
+      "email": "vendas@xyz.com.br",
+      "telefone": 2134567890,
+      "endereco": "Rua L, 456 - Rio de Janeiro/RJ"
+    },
+    {
+      "id": 3,
+      "razao_social": "Indústria QWE EIRELI",
+      "cnpj": "34567890000103",
+      "email": "industria@qwe.com.br",
+      "telefone": 3145678901,
+      "endereco": "Av. M, 789 - Belo Horizonte/MG"
+    },
+    {
+      "id": 4,
+      "razao_social": "Comércio RTY ME",
+      "cnpj": "45678901000104",
+      "email": "comercio@rty.com.br",
+      "telefone": 4156789012,
+      "endereco": "Rua N, 101 - Curitiba/PR"
+    },
+    {
+      "id": 5,
+      "razao_social": "Atacadista UIO Ltda",
+      "cnpj": "56789012000105",
+      "email": "atacado@uio.com.br",
+      "telefone": 5167890123,
+      "endereco": "Av. O, 112 - Porto Alegre/RS"
+    },
+    {
+      "id": 6,
+      "razao_social": "Importadora PAS S/A",
+      "cnpj": "67890123000106",
+      "email": "import@pas.com.br",
+      "telefone": 6178901234,
+      "endereco": "Rua P, 131 - Brasília/DF"
+    },
+    {
+      "id": 7,
+      "razao_social": "Exportadora DGF EIRELI",
+      "cnpj": "78901234000107",
+      "email": "export@dgf.com.br",
+      "telefone": 7189012345,
+      "endereco": "Av. Q, 415 - Salvador/BA"
+    },
+    {
+      "id": 8,
+      "razao_social": "Logística HJK Ltda",
+      "cnpj": "89012345000108",
+      "email": "logistica@hjk.com.br",
+      "telefone": 8190123456,
+      "endereco": "Rua R, 161 - Recife/PE"
+    },
+    {
+      "id": 9,
+      "razao_social": "Serviços LZX ME",
+      "cnpj": "90123456000109",
+      "email": "servicos@lzx.com.br",
+      "telefone": 9191234567,
+      "endereco": "Av. S, 718 - Fortaleza/CE"
+    },
+    {
+      "id": 10,
+      "razao_social": "Tecnologia CVB S/A",
+      "cnpj": "01234567000110",
+      "email": "ti@cvb.com.br",
+      "telefone": 1123456780,
+      "endereco": "Rua T, 919 - São Paulo/SP"
+    }
+  ],
+  "comprovante": [
+    {
+      "id": 1,
+      "tipo": "Pagamento",
+      "valor": 1500,
+      "cliente_id": 1,
+      "descrição": "Pagamento de serviço de consultoria"
+    },
+    {
+      "id": 2,
+      "tipo": "Recebimento",
+      "valor": 2300,
+      "cliente_id": 2,
+      "descrição": "Recebimento de frete"
+    },
+    {
+      "id": 3,
+      "tipo": "Pagamento",
+      "valor": 1800,
+      "cliente_id": 3,
+      "descrição": "Pagamento de manutenção"
+    },
+    {
+      "id": 4,
+      "tipo": "Recebimento",
+      "valor": 3200,
+      "cliente_id": 4,
+      "descrição": "Recebimento de aluguel"
+    },
+    {
+      "id": 5,
+      "tipo": "Pagamento",
+      "valor": 2750,
+      "cliente_id": 5,
+      "descrição": "Pagamento de licença de software"
+    },
+    {
+      "id": 6,
+      "tipo": "Recebimento",
+      "valor": 4100,
+      "cliente_id": 6,
+      "descrição": "Recebimento de honorários"
+    },
+    {
+      "id": 7,
+      "tipo": "Pagamento",
+      "valor": 1950,
+      "cliente_id": 7,
+      "descrição": "Pagamento de material de escritório"
+    },
+    {
+      "id": 8,
+      "tipo": "Recebimento",
+      "valor": 3800,
+      "cliente_id": 8,
+      "descrição": "Recebimento de serviços prestados"
+    },
+    {
+      "id": 9,
+      "tipo": "Pagamento",
+      "valor": 2200,
+      "cliente_id": 9,
+      "descrição": "Pagamento de assessoria jurídica"
+    },
+    {
+      "id": 10,
+      "tipo": "Recebimento",
+      "valor": 2950,
+      "cliente_id": 10,
+      "descrição": "Recebimento de venda de equipamentos"
+    }
+  ],
+  "notas_fiscais": [
+    {
+      "id": 1,
+      "numero": "NF001/2023",
+      "valor": 1500,
+      "fornecedor_id": 1,
+      "data_emissao": "2023-01-15T10:30:00"
+    },
+    {
+      "id": 2,
+      "numero": "NF002/2023",
+      "valor": 2300,
+      "fornecedor_id": 2,
+      "data_emissao": "2023-02-20T14:15:00"
+    },
+    {
+      "id": 3,
+      "numero": "NF003/2023",
+      "valor": 1800,
+      "fornecedor_id": 3,
+      "data_emissao": "2023-03-10T09:45:00"
+    },
+    {
+      "id": 4,
+      "numero": "NF004/2023",
+      "valor": 3200,
+      "fornecedor_id": 4,
+      "data_emissao": "2023-04-05T11:20:00"
+    },
+    {
+      "id": 5,
+      "numero": "NF005/2023",
+      "valor": 2750,
+      "fornecedor_id": 5,
+      "data_emissao": "2023-05-12T16:30:00"
+    },
+    {
+      "id": 6,
+      "numero": "NF006/2023",
+      "valor": 4100,
+      "fornecedor_id": 6,
+      "data_emissao": "2023-06-18T08:40:00"
+    },
+    {
+      "id": 7,
+      "numero": "NF007/2023",
+      "valor": 1950,
+      "fornecedor_id": 7,
+      "data_emissao": "2023-07-22T13:25:00"
+    },
+    {
+      "id": 8,
+      "numero": "NF008/2023",
+      "valor": 3800,
+      "fornecedor_id": 8,
+      "data_emissao": "2023-08-30T10:10:00"
+    },
+    {
+      "id": 9,
+      "numero": "NF009/2023",
+      "valor": 2200,
+      "fornecedor_id": 9,
+      "data_emissao": "2023-09-14T15:50:00"
+    },
+    {
+      "id": 10,
+      "numero": "NF010/2023",
+      "valor": 2950,
+      "fornecedor_id": 10,
+      "data_emissao": "2023-10-25T09:15:00"
+    }
+  ]
+}
